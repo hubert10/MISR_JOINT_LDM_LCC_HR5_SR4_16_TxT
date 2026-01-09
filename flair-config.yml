@@ -62,11 +62,6 @@ sr_scale: 6.25 # 6.25 for 20 cm GSD to 1.6 m GSD, 10 for 20 cm GSD to 2 m GSD
 sat_reflectance_train: 2_000 
 sat_reflectance_infer: 2_000 
 
-ref_year: 2021 # defined for whole dataset
-ref_date: 05-15 # defined for whole dataset
-pad_value: 0
-padding_mode: reflect
-
 # sits Model
 out_conv: [32, 13]
 str_conv_k: 4

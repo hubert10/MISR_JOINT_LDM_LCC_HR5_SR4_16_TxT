@@ -61,10 +61,21 @@ sr_scale: 6.25
 sat_reflectance_train: 2_000 
 sat_reflectance_infer: 2_000 
 
+# sits Model
+out_conv: [32, 13]
+str_conv_k: 4
+str_conv_s: 2
+str_conv_p: 1
+agg_mode: att_group
+encoder_norm: group
+n_head: 16
+d_model: 256
+d_k: 4
 ref_year: 2021 # defined for whole dataset
 ref_date: 05-15 # defined for whole dataset
 pad_value: 0
 padding_mode: reflect
+val_percent: 0.9
 val_percent: 0.9
 
 # Swin-Conv Model
