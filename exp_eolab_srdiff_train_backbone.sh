@@ -16,7 +16,7 @@
 export CONDA_ENVS_PATH=$HOME/.conda/envs
 DATA_DIR="/my_data/"
 export DATA_DIR
-source /home/eouser/flair_venv/bin activate
+source /home/eouser/flair_venv/bin/activate
 which python
 cd $HOME/exp_2025/MISR_JOINT_LDM_LCC_HR5_SR4_16_TxT
 python trainer.py --config configs/diffsr_maxvit_ltae.yaml --config_file flair-config-server-eolab.yml --exp_name misr/srdiff_maxvit_ltae_ckpt --reset
