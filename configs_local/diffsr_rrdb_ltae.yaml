@@ -1,6 +1,5 @@
 base_config:
   - ./diffsr_base.yaml
-  - ./df2k4x.yaml
 trainer_cls: tasks.srdiff.SRDiffTrainer
 
 # model
